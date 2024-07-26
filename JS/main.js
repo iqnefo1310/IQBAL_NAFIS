@@ -97,7 +97,6 @@ function showHome(response) {
     response.results.forEach(movie => {
         let figure = document.createElement('figure');
         let title = document.createElement('p');
-        //   let image = document.createElement('img');
         let img_url = movie.poster_path;
         let link = document.createElement('a');
 
